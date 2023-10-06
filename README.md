@@ -68,7 +68,7 @@ Start the backend server to listen for incoming API requests. This will vary dep
 node app.js
 
 ```
-The backend API will be available at 'http://localhost:3001'
+The backend API will be available at `http://localhost:3001`
 
 
 ## Frontend Setup
@@ -104,14 +104,43 @@ Start the frontend development server to run your React application.
 npm start
 
 ```
-The frontend application will be available at ' http://localhost:3000 '.
+The frontend application will be available at ` http://localhost:3000 `.
 
 ## Usage
 
- - Access the frontend application in your web browser at ' http://localhost:3000 '.
+ - Access the frontend application in your web browser at ` http://localhost:3000 `.
  - You should be able to interact with the CRUD operations through the user interface you've created. Use the form to add and edit 
     users, and the table to display and delete users.
  - The application will make API requests to the backend to perform these operations.
+
+## API Endpoints
+   - POST /api/users: Create a new user.
+   - GET /api/users/:userId: Read user details by user ID.
+   - PUT /api/users/:userId: Update user details by user ID.
+   - DELETE /api/users/:userId: Delete a user by user ID.
+
+## Contributing
+   Contributions are welcome! If you'd like to contribute to this project, please follow the standard Git workflow:
+   
+   1. Fork the repository.
+   2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`.
+   3. Make your changes and commit them: `git commit -m 'Add a new feature'`.
+   4. Push your changes to your fork: `git push origin feature/your-feature-name`.
+   5. Create a Pull Request (PR) on the main repository.
+
+## License
+
+   This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+   ```bash
+      In this README.md file:
+
+- Replace `<repository_url>` with the actual URL of your GitHub repository.
+- Customize the "Features," "Prerequisites," "Backend Setup," "Frontend Setup," and "API Endpoints" sections with specific details about your project.
+- Make sure to provide clear instructions for users to set up and run both the backend and frontend parts of your application.
+- Update the "Contributing" section to suit your project's contribution guidelines.
+- Include a license section and provide the license file (e.g., LICENSE.md) if your project is open-source.
+
 
 
 
