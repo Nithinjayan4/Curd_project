@@ -40,86 +40,15 @@ Before you begin, ensure you have met the following requirements:
 
 1. Navigate to the backend directory:
 
-``` bash
+Open a terminal and navigate to the directory where your backend code is located.
 
+```bash
 cd backend
 
 
-2. Install backend dependencies:
 
-bash
-Copy code
-npm install
-Set up the database:
 
-Initialize the SQLite database in the backend directory.
-Create the users table to store user information.
-javascript
-Copy code
-// backend/app.js (or index.js)
-// Database setup code here
-Start the backend server:
 
-bash
-Copy code
-node app.js
-The backend API will be available at http://localhost:3001.
-
-Frontend Setup
-Navigate to the frontend directory:
-
-bash
-Copy code
-cd frontend
-Install frontend dependencies:
-
-bash
-Copy code
-npm install
-Update API URL:
-
-In your frontend code, update the API_URL variable to match the URL of your backend API (e.g., http://localhost:3001).
-
-javascript
-Copy code
-const API_URL = 'http://localhost:3001'; // Update this URL
-Start the frontend application:
-
-bash
-Copy code
-npm start
-The frontend application will be available at http://localhost:3000.
-
-Usage
-Access the frontend application in your web browser.
-Use the provided user interface to perform CRUD operations on user records.
-Ensure that both the backend and frontend servers are running simultaneously for the application to work correctly.
-API Endpoints
-POST /api/users: Create a new user.
-GET /api/users/:userId: Read user details by user ID.
-PUT /api/users/:userId: Update user details by user ID.
-DELETE /api/users/:userId: Delete a user by user ID.
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow the standard Git workflow:
-
-Fork the repository.
-Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name.
-Make your changes and commit them: git commit -m 'Add a new feature'.
-Push your changes to your fork: git push origin feature/your-feature-name.
-Create a Pull Request (PR) on the main repository.
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-vbnet
-Copy code
-
-In this README.md file:
-
-- Replace `<repository_url>` with the actual URL of your GitHub repository.
-- Customize the "Features," "Prerequisites," "Backend Setup," "Frontend Setup," and "API Endpoints" sections with specific details about your project.
-- Make sure to provide clear instructions for users to set up and run both the backend and frontend parts of your application.
-- Update the "Contributing" section to suit your project's contribution guidelines.
-- Include a license section and provide the license file (e.g., LICENSE.md) i
 
 
 
