@@ -34,6 +34,5 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone <repository_url>
 
-   Navigate to the backend directory:
-   cd backend
+
 
