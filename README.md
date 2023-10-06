@@ -90,7 +90,7 @@ npm install
 ```
 3. Update API URL:
 
-In your frontend code, update the API_URL variable in your Axios or fetch calls to match the URL of your backend API (e.g., ' http://localhost:3001 ').
+In your frontend code, update the `API_URL` variable in your Axios or fetch calls to match the URL of your backend API (e.g.,` ' http://localhost:3001 '`).
 
 ```bash
 const API_URL = 'http://localhost:3001'; // Update this URL
@@ -114,10 +114,10 @@ The frontend application will be available at ` http://localhost:3000 `.
  - The application will make API requests to the backend to perform these operations.
 
 ## API Endpoints
-   - POST /api/users: Create a new user.
-   - GET /api/users/:userId: Read user details by user ID.
-   - PUT /api/users/:userId: Update user details by user ID.
-   - DELETE /api/users/:userId: Delete a user by user ID.
+   - `POST /api/users:` Create a new user.
+   - `GET /api/users/:userId:` Read user details by user ID.
+   - `PUT /api/users/:userId:` Update user details by user ID.
+   - `DELETE /api/users/:userId:` Delete a user by user ID.
 
 ## Contributing
    Contributions are welcome! If you'd like to contribute to this project, please follow the standard Git workflow:
