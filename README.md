@@ -71,6 +71,54 @@ node app.js
 The backend API will be available at 'http://localhost:3001'
 
 
+## Frontend Setup
+1. oNavigate to the frontend directory:
+
+Open a new terminal window/tab and navigate to the directory where your frontend code is located.
+
+```bash
+cd frontend
+
+```
+2. Install frontend dependencies:
+
+Install the required dependencies for the frontend (assuming you are using React).
+
+```bash
+npm install
+
+```
+3. Update API URL:
+
+In your frontend code, update the API_URL variable in your Axios or fetch calls to match the URL of your backend API (e.g., ' http://localhost:3001 ').
+
+```bash
+const API_URL = 'http://localhost:3001'; // Update this URL
+
+```
+4. Start the frontend application:
+
+Start the frontend development server to run your React application.
+
+```bash
+npm start
+
+```
+The frontend application will be available at ' http://localhost:3000 '.
+
+## Usage
+
+ . Access the frontend application in your web browser at ' http://localhost:3000 '.
+ . You should be able to interact with the CRUD operations through the user interface you've created. Use the form to add and edit 
+    users, and the table to display and delete users.
+ . The application will make API requests to the backend to perform these operations.
+
+
+
+
+
+
+
 
 
 
