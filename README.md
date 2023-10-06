@@ -142,4 +142,4 @@ In this README.md file:
 - Update the "Contributing" section to suit your project's contribution guidelines.
 - Include a license section and provide the license file (e.g., LICENSE.md) if your project is open-source.
 
-This README.md file will serve as the documentation for your project on GitHub, helping users and contributors understand how to use, contribute to, and understand your application.
+
