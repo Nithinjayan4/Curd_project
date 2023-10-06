@@ -49,6 +49,29 @@ Install the required dependencies for the backend (assuming you are using Node.j
 ```bash
  npm install
 
+```
+3. Set up the database:
+
+Initialize the SQLite database in the backend directory.
+Create the users table to store user information.
+
+```bash
+// backend/app.js (or index.js)
+// Database setup code here
+
+```
+4. Start the backend server:
+
+Start the backend server to listen for incoming API requests. This will vary depending on the command you use to start your server (e.g., node app.js, npm start, etc.). Make sure it runs on the specified port (e.g., 3001).
+
+```bash
+node app.js
+
+```
+The backend API will be available at 'http://localhost:3001'
+
+
+
 
 
 
