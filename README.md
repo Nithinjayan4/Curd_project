@@ -108,10 +108,10 @@ The frontend application will be available at ' http://localhost:3000 '.
 
 ## Usage
 
- . Access the frontend application in your web browser at ' http://localhost:3000 '.
- . You should be able to interact with the CRUD operations through the user interface you've created. Use the form to add and edit 
+ - Access the frontend application in your web browser at ' http://localhost:3000 '.
+ - You should be able to interact with the CRUD operations through the user interface you've created. Use the form to add and edit 
     users, and the table to display and delete users.
- . The application will make API requests to the backend to perform these operations.
+ - The application will make API requests to the backend to perform these operations.
 
 
 
