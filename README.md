@@ -72,7 +72,7 @@ The backend API will be available at `http://localhost:3001`
 
 
 ## Frontend Setup
-1. oNavigate to the frontend directory:
+1. Navigate to the frontend directory:
 
 Open a new terminal window/tab and navigate to the directory where your frontend code is located.
 
