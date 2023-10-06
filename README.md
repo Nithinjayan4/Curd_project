@@ -36,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
 
 
 
-   Or download the ZIP file and extract it.
+  
 
 Navigate to the backend directory:
 
