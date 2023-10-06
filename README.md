@@ -133,7 +133,8 @@ The frontend application will be available at ` http://localhost:3000 `.
    This project is licensed under the MIT License - see the LICENSE.md file for details.
 
    ```bash
-      In this README.md file:
+   
+In this README.md file:
 
 - Replace `<repository_url>` with the actual URL of your GitHub repository.
 - Customize the "Features," "Prerequisites," "Backend Setup," "Frontend Setup," and "API Endpoints" sections with specific details about your project.
@@ -141,25 +142,4 @@ The frontend application will be available at ` http://localhost:3000 `.
 - Update the "Contributing" section to suit your project's contribution guidelines.
 - Include a license section and provide the license file (e.g., LICENSE.md) if your project is open-source.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This README.md file will serve as the documentation for your project on GitHub, helping users and contributors understand how to use, contribute to, and understand your application.
