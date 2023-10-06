@@ -38,12 +38,14 @@ Before you begin, ensure you have met the following requirements:
 
   
 
-Navigate to the backend directory:
+1. Navigate to the backend directory:
 
-bash
-Copy code
+``` bash
+
 cd backend
-Install backend dependencies:
+
+
+2. Install backend dependencies:
 
 bash
 Copy code
