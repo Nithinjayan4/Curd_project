@@ -34,16 +34,27 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone <repository_url>
 
-
-
-  
-
 1. Navigate to the backend directory:
 
 Open a terminal and navigate to the directory where your backend code is located.
 
 ```bash
 cd backend
+
+```
+2. Install backend dependencies:
+
+Install the required dependencies for the backend (assuming you are using Node.js).
+
+```bash
+ npm install
+
+
+
+
+
+
+
 
 
 
